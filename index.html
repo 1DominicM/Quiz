@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TCA 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mate:ital@1&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="css/sstyle.css">
+  </head>
+  <body>
+
+    
+    <div class="container-fluid">
+<div class="row rw2">
+  <div class="col">
+    <h1>    Captial Quiz    </h1>  
+  </div>
+</div>
+
+<div class="row rw1">
+  <div class="col-6">
+    <div class="row">
+      <div class="col cl1">
+        <h2> 1. What is the Capital of France?</h2>
+      </div>
+    </div>
+    <div class="row rw3">
+      <div class="col">
+
+
+
+            
+            <button onclick="updateOne()" class="btn" id="but1"> A) Berlin </button> <br>
+            <button onclick="updateTwo()" class="btn" id="but2"> B) Madrid </button> <br>
+            <button onclick="updateThree()" class="btn" id="but3"> C) Rome </button>   <br>  
+            <button onclick="updateFour()" class="btn" id="but3"> D) Paris </button>     
+          
+
+
+
+      </div>
+    </div>
+  </div>
+  <div class="col-6 cl2">
+    <img src="img/paris.avif" alt="paris">
+  </div>
+</div>
+
+<div class="row rw3">
+  <div class="col-6">
+    <div class="row">
+      <div class="col cl1">
+        <h2> 2. Which city serves as the capital of Australia?</h2>
+      </div>
+    </div>
+    <div class="row rw3">
+      <div class="col">
+                    
+        <button onclick="updateOne()" class="btn" id="but1"> A) Auckland </button> <br>
+        <button onclick="updateTwo()" class="btn" id="but2"> B) Sydney </button> <br>
+        <button onclick="updateThree()" class="btn" id="but3"> C) Canberra </button>   <br>  
+        <button onclick="updateFour()" class="btn" id="but3"> D) Melbourne </button>     
+      
+      </div>
+    </div>
+  </div>
+  <div class="col-6 cl2">
+    <img src="img/canb.jpg" alt="paris">
+  </div>
+</div>
+
+<div class="row rw4">
+  <div class="col-6">
+    <div class="row">
+      <div class="col cl1">
+        <h2> 3. What is the capital of Brazil?</h2>
+      </div>
+    </div>
+    <div class="row rw3">
+      <div class="col">
+                    
+        <button onclick="updateOne()" class="btn" id="but1"> A) Buenos Aires </button> <br>
+        <button onclick="updateTwo()" class="btn" id="but2"> B) Rio De Janeiro </button> <br>
+        <button onclick="updateThree()" class="btn" id="but3"> C) Sao Paulo </button>   <br>  
+        <button onclick="updateFour()" class="btn" id="but3"> D) Brasilia </button>     
+      
+      </div>
+    </div>
+  </div>
+  <div class="col-6 cl2">
+    <img src="img/bsl.jpg" alt="paris">
+  </div>
+</div>
+
+<div class="row rw5">
+  <div class="col-6">
+    <div class="row">
+      <div class="col cl1">
+        <h2> 4. Which city is the capital of Japan?</h2>
+      </div>
+    </div>
+    <div class="row rw3">
+      <div class="col">
+                                         
+        <button onclick="updateOne()" class="btn" id="but1"> A) Kyoto </button> <br>
+        <button onclick="updateTwo()" class="btn" id="but2"> B) Osaka </button> <br>
+        <button onclick="updateThree()" class="btn" id="but3"> C) Tokyo </button>   <br>  
+        <button onclick="updateFour()" class="btn" id="but3"> D) Beijig </button>     
+      
+      </div>
+    </div>
+  </div>
+  <div class="col-6 cl2">
+    <img src="img/tko.jpg" alt="paris">
+  </div>
+</div>
+
+<div class="row rw6">
+  <div class="col-6">
+    <div class="row">
+      <div class="col cl1">
+        <h2> 5. What is the capital of Canada?</h2>
+      </div>
+    </div>
+    <div class="row rw3">
+      <div class="col">
+                            
+        <button onclick="updateOne()" class="btn" id="but1"> A) Vancouver </button> <br>
+        <button onclick="updateTwo()" class="btn" id="but2"> B) Toronto </button> <br>
+        <button onclick="updateThree()" class="btn" id="but3"> C) Ottawa </button>   <br>  
+        <button onclick="updateFour()" class="btn" id="but3"> D) Montreal </button>     
+      
+      </div>
+    </div>
+  </div>
+  <div class="col-6 cl2">
+    <img src="img/otw.webp" alt="paris">
+  </div>
+</div>
+
+<div class="row rw7">
+  <div class="col-6">
+    <div class="row">
+      <div class="col cl1">
+        <h2> 6. Which city serves as the capital of China?</h2>
+      </div>
+    </div>
+    <div class="row rw3">
+      <div class="col">
+                            
+        <button onclick="updateOne()" class="btn" id="but1"> A) Tirana </button> <br>
+        <button onclick="updateTwo()" class="btn" id="but2"> B) Tokyo </button> <br>
+        <button onclick="updateThree()" class="btn" id="but3"> C) Bejing </button>   <br>  
+        <button onclick="updateFour()" class="btn" id="but3"> D) Taiwan </button>     
+      
+      </div>
+    </div>
+  </div>
+  <div class="col-6 cl2">
+    <img src="img/bji.jpg" alt="paris">
+  </div>
+</div>
+
+
+<div class="row rw9">
+  <div class="col-6">
+    <div class="row">
+      <div class="col cl1">
+        <h2> 7. What is the capital of Italy?</h2>
+      </div>
+    </div>
+    <div class="row rw3">
+      <div class="col">
+                                    
+        <button onclick="updateOne()" class="btn" id="but1"> A) Milan </button> <br>
+        <button onclick="updateTwo()" class="btn" id="but2"> B) Florence </button> <br>
+        <button onclick="updateThree()" class="btn" id="but3"> C) Rome </button>   <br>  
+        <button onclick="updateFour()" class="btn" id="but3"> D) Venice </button>     
+      
+      </div>
+    </div>
+  </div>
+  <div class="col-6 cl2">
+    <img src="img/rm.webp" alt="paris">
+  </div>
+</div>
+
+<div class="row rw10">
+  <div class="col-6">
+    <div class="row">
+      <div class="col cl1">
+        <h2> 8. Which city is the capital of India?</h2>
+      </div>
+    </div>
+    <div class="row rw3">
+      <div class="col">
+                                    
+        <button onclick="updateOne()" class="btn" id="but1"> A) Mumbai </button> <br>
+        <button onclick="updateTwo()" class="btn" id="but2"> B) Kolkata </button> <br>
+        <button onclick="updateThree()" class="btn" id="but3"> C) New Deli </button>   <br>  
+        <button onclick="updateFour()" class="btn" id="but3"> D) Bangalore </button>     
+      
+      </div>
+    </div>
+  </div>
+  <div class="col-6 cl2">
+    <img src="img/dhi.jpg" alt="paris">
+  </div>
+</div>
+
+<div class="row rw11">
+  <div class="col-6">
+    <div class="row">
+      <div class="col cl1">
+        <h2> 9. What is the capital of Russia?</h2>
+      </div>
+    </div>
+    <div class="row rw3">
+      <div class="col">
+                                    
+        <button onclick="updateOne()" class="btn" id="but1"> A) St. Petersburg </button> <br>
+        <button onclick="updateTwo()" class="btn" id="but2"> B) Moscow </button> <br>
+        <button onclick="updateThree()" class="btn" id="but3"> C) Novosibirsk </button>   <br>  
+        <button onclick="updateFour()" class="btn" id="but3"> D) Vladivostok </button>     
+      
+      </div>
+    </div>
+  </div>
+  <div class="col-6 cl2">
+    <img src="img/mscw.avif" alt="paris">
+  </div>
+</div>
+
+<div class="row rw11">
+  <div class="col-6">
+    <div class="row">
+      <div class="col cl1">
+        <h2> 10. Which city serves as the capital of Argentina?</h2>
+      </div>
+    </div>
+    <div class="row rw3">
+      <div class="col">
+                                            
+        <button onclick="updateOne()" class="btn" id="but1"> A) Buenos Aires </button> <br>
+        <button onclick="updateTwo()" class="btn" id="but2"> B) Santiago </button> <br>
+        <button onclick="updateThree()" class="btn" id="but3"> C) Lima </button>   <br>  
+        <button onclick="updateFour()" class="btn" id="but3"> D) Montevideo </button>     
+      
+      </div>
+    </div>
+  </div>
+  <div class="col-6 cl2">
+    <img src="img/ba.webp" alt="paris">
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+    </div>
+    <script src="js/java.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

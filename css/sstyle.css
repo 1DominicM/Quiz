@@ -1,0 +1,147 @@
+body {
+    background-color: #d5bfa8;
+}
+
+h1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 96px;
+    font-weight: 400;
+    color: #644536;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    padding-top: 150PX;
+}
+
+.h2 {
+    font-family: "Mate", serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+}
+/*
+.row {
+    border: 1px dotted black;
+}
+
+.col {
+    border: 1px solid black;
+}
+*/
+.rw2 {
+    height: 300px;
+}
+
+.rw1 {
+    height: 500px;
+    padding-top: 50px;
+}
+.rw3 {
+    height: 500px;
+    padding-top: 50px;
+}
+.rw4 {
+    height: 500px;
+    padding-top: 50px;
+}
+.rw4 {
+    height: 500px;
+    padding-top: 50px;
+}
+.rw6 {
+    height: 500px;
+    padding-top: 50px;
+}
+.rw7 {
+    height: 500px;
+    padding-top: 50px;
+}
+.rw8 {
+    height: 500px;
+    padding-top: 50px;
+}
+.rw9 {
+    height: 500px;
+    padding-top: 50px;
+}
+.rw10 {
+    height: 500px;
+    padding-top: 50px;
+}
+.rw11 {
+    height: 500px;
+    padding-top: 50px;
+}
+.cl1 {
+    height: 50px;
+    text-align: center;
+}
+
+.cl2 {
+}
+
+.rw3 {
+    height: 450px;
+}
+
+img {
+    max-height: 450px;
+    
+
+}
+
+
+
+.btn {
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #000000;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 240px;
+  }
+  
+  .btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #260049;
+    transition: 0.5s ease;
+  }
+  
+  .btn:hover {
+    color: rgb(0, 0, 0);
+    transition-delay: 0.5s;
+    box-shadow: 0 0 10px white;
+  
+  }
+  
+  .btn:hover::before {
+    width: 100%;
+  }
+  
+  .btn::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #e79857;
+    transition: 0.4s ease;
+    z-index: -1;
+  }
+  
+  .btn:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: aliceblue;
+  }
