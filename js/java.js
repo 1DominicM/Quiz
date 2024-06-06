@@ -115,6 +115,6 @@ function updateTtwo(){
 function updateTthree(){
     document.getElementById('but39').style.color = "#D1321F";
 }
-function updateFfour(){
+function updateFfourr(){
     document.getElementById('but40').style.color = "#628322";
 }
